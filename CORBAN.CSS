@@ -1,0 +1,401 @@
+.pp1{
+    
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
+    /* background-color:whitesmoke; */
+   text-align: center;
+  .s #search{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    height: 300vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
+
+   }
+  
+
+
+
+/* COBARN*/
+.title{
+    text-transform: capitalize;
+    text-align: justify;
+    font-size: larger;
+
+}
+/*this is the heading for products and services*/
+.{
+    text-decoration: dashed;
+    text-transform: capitalize;
+    color: green;
+
+}
+nav{
+    
+    overflow: hidden;
+    background-color:none;
+    margin: o 5px;
+    padding: 0%;
+
+
+}
+.ww{
+    text-decoration: rgb(133, 133, 255);
+}
+ HEADER nav ul  {
+    text-decoration-color: rgb(54, 137, 54);
+    font-weight: 900;
+    list-style:none;
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.5rem 0;
+    justify-content: left;
+    background-color:rgb(14, 14, 15);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+header nav ul li{
+    margin: 3.5rem;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    text-decoration-color:red;
+
+
+}
+a:visited{
+    color: rgb(241, 250, 250);
+}
+a:hover{
+    color: rgb(17, 114, 116);
+
+}
+a:active{
+    color: rgb(135, 59, 59);
+}
+
+
+    
+    
+  
+  
+  .content {
+    margin-left: 20%;
+    padding: 20px;
+    background-color: ;
+  }
+
+h2{
+    font-family: sans-serif;
+    padding: auto;
+    word-spacing: 0.5em;
+    font-style: oblique;
+    font-weight: bolder;
+    color:rgb(243, 242, 242);
+}
+.div1{
+    overflow: hidden;
+    transition: opacity 0.6s ease-in-out;
+}
+.div1{
+opacity:1 ;
+}
+.sec1{
+justify-content: center;
+align-content: center;
+
+
+}
+.links{
+    display: flex;
+}
+.gaming{
+    flex:1;
+    margin-left: 50px;
+}
+.rating {
+    font-size: 24px;
+    color: gold;
+  }
+.photo{
+flex:2;
+margin-left: 20px;
+}
+.loc{
+    display: flex;
+   
+}
+.loc1{
+    flex:1;
+    margin-right: 5opx;
+    
+}
+.loc2{
+    flex: 2;
+   margin-left: 50px;
+   
+}
+
+footer {
+    text-align: left;
+    
+    background-color:rgb(13, 13, 14);
+    padding: 0%;
+  }
+
+/* GAMING*/
+.P2{
+    color: rgb(41, 50, 50);
+    background-color: rgb(88, 87, 71);
+    color: rgb(43, 43, 57);
+}
+
+.B2{
+    background-color: rgb(56, 77, 77);
+}
+
+.pp2{
+    /*b0dy for gaming page*/
+    background-color:rgb(255, 254, 254);
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 0%;
+    text-align: center;
+color: rgb(36, 25, 25);
+}
+.con1{
+    display:flex
+}
+.con1img{
+    flex:1;
+    margin-left: 20px ;
+    
+}
+.con3{
+flex:2;
+margin-left: 20px;
+}
+.con1dit{
+    flex:3;
+    margin-left: 20px;
+    /*items 2 and 3*/
+}
+.con01{
+    display :flex
+}
+.conimg01{
+    flex:1;
+    margin-right:20px ;
+
+}
+.co01{
+    flex: 2;
+    margin-left: 20px;
+}
+.comit01{
+    flex:3;
+    margin-right: 20px;
+}
+
+.con2{
+    display: flex;
+}
+.conimg2{
+    flex:1;
+    margin-right: 20px;
+}
+.conit2{
+flex:2;
+margin-left: 20px;
+}
+.con22{
+    flex: 3;
+    margin-left: 20px;
+}
+button {
+    background-color: #b1212d; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+  }
+
+.conit3{
+flex:3;
+margin-left: 20;
+}
+.p1{
+    display: flex;
+}
+.p11{
+    flex: 1;
+    margin-right: 20px;
+}
+.p111{
+    flex: 2;
+    margin-left: 20px;
+}
+.p1111{
+    flex: 3;
+    margin-right: 20px;
+}
+.p2{
+    display: flex;
+}
+.p22{
+    flex: 1;
+    margin-right: 20px;
+}
+.p222{
+    flex: 2;
+    margin-left: 20px;
+}
+.p2222{
+    flex: 3;
+    margin-right: 20px;
+}
+.p3{
+    display: flex;
+}
+.p33{
+    flex: 1;
+    margin-right: 20px;
+}
+.p333{
+    flex: 2;
+    margin-left: 20px;
+}
+.p3333{
+    flex: 3;
+    margin-right: 20px;
+}
+
+.c1{
+    display: flex;
+}
+.c11{
+    flex: 1;
+    margin-right: 20px;
+}
+.c111{
+    flex:2;
+    margin-right: 20px;
+}
+.c2{
+    display: flex;
+}
+.c22{
+    flex: 1;
+    margin-right: 20px;
+}
+.c22{
+    flex:2;
+    margin-right: 20px;
+}
+.C3{
+    display: flex;
+}
+.C33{
+    flex: 1;
+    margin-right: 20px;
+}
+.C333{
+    flex:2;
+    margin-right: 20px;
+}
+.C4{
+    display: flex;
+}
+.C44{
+    flex: 1;
+    margin-right: 20px;
+}
+.C444{
+    flex:2;
+    margin-right: 20px;
+}
+
+
+
+
+.hh2 nav ul li{
+    text-decoration: dashed;
+    list-style: none;
+    text-align: center;
+    background-color: ;
+    text-decoration: none;
+
+}
+.body3{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
+    background-color:rgb(255, 255, 255);
+   text-align: center;
+}
+.container{
+    display: flex;
+
+}
+.body,html{
+    margin: 0%;
+    padding: 0%;
+    font-family: aral,sans-serif;
+
+}
+.sidebar{
+    width: 250px; 
+    height: 100vh;
+    background-color: beige;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar h2 {
+    color: azure;
+}
+.sidebar ul{
+    list-style-type:none;
+    padding: 0;
+
+}
+.sidebar ul li{
+    margin: 15px;
+}
+.sidebar ul li a {
+    color: aqua;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.sidebar ul li a:hover{
+    text-decoration: underline;
+}
+h4{
+    font-family: sans-serif;
+    padding: auto;
+    word-spacing: 0.5em;
+    font-style: oblique;
+    font-weight: bolder;
+    color:rgb(20, 98, 3);
+}
+h5{
+    color: aliceblue;
+}
+#searchh{
+    width: 450px;
+    height: 25px;
+}
