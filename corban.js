@@ -347,3 +347,47 @@ alert("SUCCESSFULLY BOOKED"); // simple prompt
 
 
 }
+
+// Select elements
+const thumbnails = document.querySelectorAll('.thumbnails img');
+const mainImage = document.querySelector('.main-image');
+const prevButton = document.getElementById('prev');
+const nextButton = document.getElementById('next');
+
+// Array of image sources
+const images = [
+    'image1.jpg',
+    'image2.jpg',
+    'image3.jpg',
+    'image4.jpg'
+];
+
+// Current image index
+let currentIndex = 0;
+
+// Function to update the main image
+function updateMainImage(index) {
+    mainImage.src = images[index];
+}
+
+// Event listeners for thumbnail clicks
+thumbnails.forEach((thumb, index) => {
+    thumb.addEventListener('click', () => {
+        currentIndex = index;
+        updateMainImage(currentIndex);
+    });
+});
+
+// Event listeners for navigation buttons
+prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateMainImage(currentIndex);
+});
+
+nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateMainImage(currentIndex);
+});
+
+// Initialize with the first image
+updateMainImage(currentIndex);

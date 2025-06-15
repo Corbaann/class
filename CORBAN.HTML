@@ -1,119 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <HEAD>
-        <title>CORBAN GEMS</title>
-        <link rel="stylesheet" href="CORBAN.CSS">
-    </HEAD>
-    <body class="pp1" background="images/backk.webp">
-       
-        <header >
-            <nav >
-                
-                <ul >
-                   
-                    <img src="images/leb 3.jpg" width="150" height="150">
-                    <li><a href="CORBAN.HTML"><B>HOME</B></a></li>
-                    <li><a href="page 2 .html"> <B>GAMING </B></a></li>
-                    <li><a href="page 3.html"><B>PHOTOGRAPHY</B></a></li>
-                   
-                </ul>
-            </nav>
-        </header>
-        <br>
-        <section>
-      
-          
-          
-            <input type="text"placeholder="search.." id="searchh" >
-   
-        <h2><b>our products and services</b></h2>
-        <section class="sec1">
-            <style>
-                .slideshow-container {
-                    width: 100%;
-                    max-width: 800px;
-                    position: relative;
-                    margin: auto;
-                }
-        
-                .slide {
-                    display: none;
-                }
-        
-                .active {
-                    display: block;
-                }
-            </style>
-        </head>
-        <body>
-            <div class="slideshow-container">
-                <div class="slide">
-                    <img src="images/logo 1.jpg" style="width:70%">
-                </div>
-        
-                <div class="slide">
-                    <img src="images/logo 2.jpg" style="width:70%">
-                </div>
-        
-                <div class="slide">
-                    <img src="images/pp3.jpg" style="width:70%">
-                </div>
-            </div>
-        
-            <script>
-                let slideIndex = 0;
-        
-                function showSlides() {
-                    let i;
-                    let slides = document.getElementsByClassName("slide");
-                    for (i = 0; i < slides.length; 
-         i++) {
-                        slides[i].style.display = "none";
-                    }
-                    slideIndex++;
-                    if (slideIndex > slides.length) { slideIndex = 1 }
-                    slides[slideIndex - 1].style.display = "block";
-                    setTimeout(showSlides, 2000); // Change image every 2 seconds   
-        
-                }
-        
-                showSlides(); 
-        
-            </script>
-       <!---- <div class="slideshow-container" id="image-container">
-            <img src="M:\HTML\logo 1.JPG" alt="" width="400" height="400">
-            <img src="M:\HTML\logo 2.JPG" alt=""width="400" height="400">
-        </div> 
-    </section> -->
-    <section >
-        <div class="links">
-        <div class="gaming">
-            <a href="page 2 .html"><img src="images/leb 1.jpg" width="450" height="450">
-                <H3>GAMING SECTION</H3>
-            </a>
-            
-        </div>
-        <div class="photo">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="plan2.css">
+</head>
 
-<a href="page 3.html" >  <img src="images/leb 2.jpg" width="450" height="450">
-    <h3 class="ww">PHOTOGRAPHY SECTION</h3>
-            </a>
+    <header class="navbar">
+        <div class="logo">
+            <H3>CORBAN GAMING</h3>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="page 3.html">Gaming</a></li>
+                <li><a href="items.html">Gaming products</a></li>
+                <li><a href="page 2 .html">Photography</a></li>
+                <li><a href="CORBAN.HTML">Photography services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </nav>
+    </header>
+<body class="body3" >
+    <div class="container4">
+        <div class="left-section">
+            <h3>Engagements</h3>
+            <h1>Phillip & Jane</h1>
+            <p>Aspernatur ratione blanditiis vero quam distinctio reprehenderit.</p>
+            <div class="thumbnails">
+                <img src="images/img1.jpg" alt="Thumbnail 1">
+                <img src="images/fam.jpeg" alt="Thumbnail 2">
+                <img src="images/img3.jpg" alt="Thumbnail 3">
+                <img src="images/group4.jpg" alt="Thumbnail 4">
+            </div>
+         
+        </div>
+        <div class="right-section">
+            <img src="images/group2.jpg" alt="Main Image" class="main-image"> 
         </div>
     </div>
-    </section>
-   
-<footer >
-    <h5>&copy; 2024 Corban Gems. All Rights Reserved.</h5>
-    <h5>Contact us: <a href="@corbangems.com"> <img src="images/mail.png" alt="" width="30" height="30">corbangems@gmail.com</a></h5>
-    <nav>
-      <ul>
-        
-        <li><a href="#"><img src="images/home.png" width="30" height="30">Home</a></li>
-        <li><a href="#"><img src="images/loc.png" width="30" height="30">Location</a></li>
-        <li><a href="#"><img src="images/tel1.png" width="30" height="30">Contact</a></li>
-      </ul>
-    </nav>
-  </footer>
+   <button class="btn2">BOOK NOW </button>
+    <br>
+    <div class="container4">
+        <div class="left-section">
+            <h3>Engagements</h3>
+            <h1>Phillip & Jane</h1>
+            <p>Aspernatur ratione blanditiis vero quam distinctio reprehenderit.</p>
+            <div class="thumbnails">
+                <img src="images/img1.jpg" alt="Thumbnail 1">
+                <img src="images/fam.jpeg" alt="Thumbnail 2">
+                <img src="images/img3.jpg" alt="Thumbnail 3">
+                <img src="images/group4.jpg" alt="Thumbnail 4">
+            </div>
+        </div>
+        <div class="right-section">
+            <img src="images/group2.jpg" alt="Main Image" class="main-image">
+        </div>
+    </div>
+    <button class="btn2">BOOK NOW </button>
+    <br>
 
-  </body>
+ 
+</body>
 </html>
