@@ -391,3 +391,9 @@ nextButton.addEventListener('click', () => {
 
 // Initialize with the first image
 updateMainImage(currentIndex);
+// script.js
+document.querySelectorAll('.ctaa-button').forEach(button => {
+  button.addEventListener('click', () => {
+      alert('You clicked the "Host My Website" button!');
+  });
+});

@@ -29,6 +29,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
    
   }
+  .text-box h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333; /* Dark text color */
+  }
   /*.bbmain{
     position: relative;
     left: 25%;
@@ -48,6 +53,7 @@
     left: 50%;
   }
   
+  
   .btnmain  a {
     display: flex;
     justify-content: center;
@@ -59,11 +65,17 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
     padding: 5PX;
-    background-color: rgba(242, 75, 75, 0.8);;
+    background-color: rgba(244, 209, 12, 0.8);;
   }
-  .btmain a :hover{
+  .btnmain :hover{
     color:red;
     
+  }
+  .m1{
+   
+    color: rgb(255, 255, 255);
+    
+
   }
 
   
@@ -81,6 +93,7 @@
     line-height: 1.6;
     color:white; 
   }
+  
 
 /* Footer Styles */
 .footer {
@@ -193,7 +206,7 @@
 }
 
 .navbar {
-    background-color: white;
+    background-color: rgb(234, 231, 231);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     display: flex;
     justify-content: space-between;
@@ -207,10 +220,13 @@
     border-radius: 10px; /* Rounded corners for the navbar */
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: black; /* Blue color for the logo */
+.logo img {
+    height: 50px;
+    width: 250px;
+    object-fit: cover; /* Ensures the logo fits well */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+
+
 }
 
 .nav-links {
@@ -401,6 +417,7 @@ h1 {
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: rgb(109, 211, 6);
 }
 
 p {
@@ -467,4 +484,81 @@ p {
     margin-left: auto; /* Center the button */
     margin-right: auto; /* Center the button */
     align-items: center;
+}
+
+
+.container11 {
+    display: flex;
+    gap: 50px;
+}
+
+.plan {
+    background-color: rgb(231, 231, 231); /* Freelancer */
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.header {
+    background-color: #2ecc71; /* Freelancer */
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 8px;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#startup .header {
+    background-color: #3498db; /* Startup */
+}
+
+#business .header {
+    background-color: #e74c3c; /* Business */
+}
+
+ul {
+    list-style: none;
+    padding: 20px 0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.ctaa-button {
+    background-color: #2ecc71; /* Freelancer */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startup .ctaa-button {
+    background-color: #3498db; /* Startup */
+}
+
+#business .ctaa-button {
+    background-color: #e74c3c; /* Business */
+}
+
+.ctaa-button:hover {
+    opacity: 0.9;
 }
