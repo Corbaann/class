@@ -27,7 +27,45 @@
     padding: 20px 30px;
     max-width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
   }
+  /*.bbmain{
+    position: relative;
+    left: 25%;
+    max-width: 60%;
+    padding: 45px;
+    background-color: rgb(245, 151, 27);
+    height: 5px;
+    align-items: center;
+    justify-content: center;
+   
+  }*/
+  .btnmain{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20PX;
+    margin: 5px;
+    left: 50%;
+  }
+  
+  .btnmain  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height:80px;
+    border-radius: 10%;
+    color:rgb(2, 2, 2);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding: 5PX;
+    background-color: rgba(242, 75, 75, 0.8);;
+  }
+  .btmain a :hover{
+    color:red;
+    
+  }
+
   
   /* Headline styles */
   .text-box h1 {
@@ -110,8 +148,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.social-icons2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     color: white;
@@ -343,7 +393,7 @@ button {
 
 h3 {
     font-size: 16px;
-    color: #777;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -413,7 +463,8 @@ p {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    width: 100%; /* Cover at least half the width of the screen */
+    width: 75%; /* Cover at least half the width of the screen */
     margin-left: auto; /* Center the button */
     margin-right: auto; /* Center the button */
+    align-items: center;
 }
